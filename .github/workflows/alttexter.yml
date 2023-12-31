@@ -18,9 +18,6 @@ jobs:
     runs-on: ubuntu-latest
     container: 
       image: ghcr.io/jonathanalgar/alttexter-ghclient:latest
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.CR_TOKEN }}
 
     steps:
       - name: Set ref for checkout
