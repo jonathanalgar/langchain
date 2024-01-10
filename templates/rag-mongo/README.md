@@ -97,15 +97,15 @@ We will first follow the standard MongoDB Atlas setup instructions [here](https:
 
 This can be done by going to the deployement overview page and connecting to you database
 
-![Screenshot highlighting the 'Connect' button in MongoDB Atlas.](_images/connect.png "MongoDB Atlas Connect Button")
+![](_images/connect.png)
 
 We then look at the drivers available
 
-![Screenshot showing the MongoDB Atlas drivers section for connecting to the database.](_images/driver.png "MongoDB Atlas Drivers Section")
+![](_images/driver.png)
 
 Among which we will see our URI listed
 
-![Screenshot displaying an example of a MongoDB URI in the connection instructions.](_images/uri.png "MongoDB URI Example")
+![](_images/uri.png)
 
 Let's then set that as an environment variable locally:
 
@@ -165,7 +165,7 @@ And we will paste the following JSON in:
    }
  }
 ```
-![Screenshot of the MongoDB Atlas JSON Editor with a vector index JSON configuration open.](_images/json.png "MongoDB Atlas JSON Editor Interface")
+![](_images/json.png)
 
 From there, hit "Next" and then "Create Search Index". It will take a little bit but you should then have an index over your data!
 
