@@ -97,15 +97,15 @@ We will first follow the standard MongoDB Atlas setup instructions [here](https:
 
 This can be done by going to the deployement overview page and connecting to you database
 
-![](_images/connect.png)
+![Screenshot highlighting the 'Connect' button in MongoDB Atlas interface.](_images/connect.png "MongoDB Atlas Connect Button")
 
 We then look at the drivers available
 
-![](_images/driver.png)
+![Screenshot showing different driver options for connecting to MongoDB Atlas.](_images/driver.png "MongoDB Atlas Driver Options")
 
 Among which we will see our URI listed
 
-![](_images/uri.png)
+![Screenshot displaying an example of a MongoDB URI in the Atlas interface.](_images/uri.png "MongoDB Atlas URI Example")
 
 Let's then set that as an environment variable locally:
 
@@ -131,23 +131,23 @@ Note that you can (and should!) change this to ingest data of your choice
 
 We can first connect to the cluster where our database lives
 
-![](_images/cluster.png)
+![Screenshot of the MongoDB Atlas cluster overview page.](_images/cluster.png "MongoDB Atlas Cluster Overview")
 
 We can then navigate to where all our collections are listed
 
-![](_images/collections.png)
+![Screenshot showing a list of collections in MongoDB Atlas.](_images/collections.png "MongoDB Atlas Collections List")
 
 We can then find the collection we want and look at the search indexes for that collection
 
-![](_images/search-indexes.png)
+![Screenshot of the search indexes section in MongoDB Atlas for a specific collection.](_images/search-indexes.png "MongoDB Atlas Search Indexes Section")
 
 That should likely be empty, and we want to create a new one:
 
-![](_images/create.png)
+![Screenshot with a focus on the 'Create Index' button in MongoDB Atlas.](_images/create.png "MongoDB Atlas Create Index Button")
 
 We will use the JSON editor to create it
 
-![](_images/json_editor.png)
+![Screenshot highlighting the JSON Editor option for creating a search index in MongoDB Atlas.](_images/json_editor.png "MongoDB Atlas JSON Editor Option")
 
 And we will paste the following JSON in:
 
