@@ -165,7 +165,7 @@ And we will paste the following JSON in:
    }
  }
 ```
-![](_images/json.png)
+![Screenshot of the MongoDB JSON editor interface with a JSON configuration for a search index.](_images/json.png "MongoDB JSON Editor Interface")
 
 From there, hit "Next" and then "Create Search Index". It will take a little bit but you should then have an index over your data!
 
